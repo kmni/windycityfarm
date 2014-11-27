@@ -98,9 +98,9 @@ a {
   -webkit-tap-highlight-color: transparent; }
 
 /* mouse grab icon */
-.grabbing {
-  cursor: url(grabbing.png) 8 8, move; }
-
+/*.grabbing { 
+	cursor:url(grabbing.png) 8 8, move;
+}*/
 /* fix */
 .owl-carousel .owl-wrapper,
 .owl-carousel .owl-item {
@@ -1010,10 +1010,11 @@ body {
   max-width: 952px;
   margin: 0 auto;
   padding-top: 36px; }
+  .contentInner.slim {
+    max-width: 674px; }
   .contentInner .overline {
     color: #242424;
     font-size: 3.4em;
-    font-weight: 600;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 55px; }
@@ -1191,6 +1192,8 @@ body {
   .detailDescription .buttons {
     border-top: 1px solid #626262;
     padding-top: 17px; }
+    .detailDescription .buttons.oneButton a {
+      width: 96%; }
     .detailDescription .buttons a {
       display: inline-block;
       width: 46%;
@@ -1252,3 +1255,71 @@ body {
 .detailCarousel .owl-controls .owl-buttons .owl-next {
   right: 11px;
   background: url("../images/next.png") no-repeat 0 0; }
+
+.pageArticle .articleInner {
+  max-width: 560px;
+  margin: 0 auto; }
+.pageArticle h1 {
+  color: #282828;
+  font-size: 4.5em;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px; }
+.pageArticle h2 {
+  color: #282828;
+  font-size: 3.5em;
+  font-weight: 700;
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 40px; }
+.pageArticle h3 {
+  color: #282828;
+  font-size: 2.5em;
+  font-weight: 700;
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-top: 30px; }
+.pageArticle h4 {
+  color: #282828;
+  font-size: 2em;
+  font-weight: 700;
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 20px; }
+.pageArticle .images {
+  position: relative;
+  *zoom: 1;
+  margin-bottom: 30px;
+  margin-top: 20px; }
+  .pageArticle .images:before, .pageArticle .images:after {
+    content: "";
+    display: table; }
+  .pageArticle .images:after {
+    clear: both; }
+  .pageArticle .images:before {
+    content: '';
+    width: 100%;
+    height: 18px;
+    background: url("../images/shadow-slideshow.png") no-repeat 50% 0;
+    background-size: 100% auto;
+    position: absolute;
+    bottom: -29px;
+    left: 0;
+    opacity: .7; }
+  .pageArticle .images a {
+    width: 49%;
+    float: left; }
+    .pageArticle .images a + a {
+      float: right; }
+    .pageArticle .images a img {
+      display: block;
+      max-width: 100%; }
+.pageArticle p {
+  font-size: 1.6em;
+  text-indent: 35px;
+  line-height: 20px;
+  margin: 20px 0; }

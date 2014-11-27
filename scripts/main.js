@@ -31,7 +31,7 @@ $(document).ready(function() {
 // magnific popup
 //
 (function() {
-	$(".detailCarousel").each(function() {
+	$(".magnific").each(function() {
 		$(this).magnificPopup({
 			delegate: "a",
 			type: "image",
