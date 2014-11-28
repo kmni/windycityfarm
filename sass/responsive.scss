@@ -193,9 +193,24 @@
 	}
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 680px) {
 	.list .listItem{
 		width: 44.72%;
+	}
+	
+	.detailDescription{
+		float: none;
+		width: 100%;
+		padding: 10px;
+	}
+	
+	.detailImage{
+		display: none;
+	}
+	
+	.contentInner.slim{
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 }
 

@@ -561,6 +561,8 @@ body{
 }
 
 .detailCarousel{
+	margin-left: auto;
+	margin-right: auto;
 	
 	.owl-item{
 		
@@ -607,9 +609,25 @@ body{
 		}
 
 		.owl-next{
-			right: 11px;
+			right: 9px;
 			@include bg('next.png');
 		}
+	}
+	
+	@media only screen and (max-width: 954px) {
+		width: 795px;
+	}
+	
+	@media only screen and (max-width: 795px) {
+		width: 636px;
+	}
+	
+	@media only screen and (max-width: 636px) {
+		width: 477px;
+	}
+	
+	@media only screen and (max-width: 477px) {
+		width: 318px;
 	}
 }
 

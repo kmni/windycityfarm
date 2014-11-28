@@ -42,12 +42,11 @@ if (window.XMLHttpRequest) {
 		navigationText: false,
 		items: 6,
 		itemsCustom: [
-//			[0, 1],
-//			[0, 2],
-//			[0, 3],
-//			[0, 4],
-			[0, 5],
-			[952, 6]
+			[0, 2],
+			[477, 3],
+			[636, 4],
+			[795, 5],
+			[954, 6]
 		]
 	});
 }());
