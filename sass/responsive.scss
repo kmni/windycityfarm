@@ -2,6 +2,203 @@
 // Responsive
 //
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1410px) {
+	.pageHeader{
+		
+		&:before,
+		&:after{
+			display: none;
+		}
+	}
+}
+
+@media only screen and (max-width: 1239px) {
+	.pageHeader{
+		height: 295px;
+		padding-top: 225px;
+	}
 	
+	.pageLogo{
+		left: 20px;
+		top: 20px;
+		width: 240px;
+		height: 189px;
+		@include bg('logo2.png');
+		background-size: contain;
+		
+		img{
+			display: none;
+		}
+	}
+	
+	.pageMenu{
+		
+		ul{
+			margin-right: 20px;
+			margin-left: 0;
+			float: right;
+		}
+	}
+	
+	.homepage .left{
+		padding-top: 68px;
+		margin-left: 0;
+	}
+	
+	.homepageWelcome{
+		padding-right: 25px;
+	}
+	
+	.pageContent:before{
+		left: 15px;
+		bottom: -92px;
+	}
+	
+	.pageContacts{
+		
+		br{
+			display: block;
+		}
+		
+		span{
+			display: none;
+		}
+	}
+	
+	.pageFooter .logo{
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 1139px) {
+	.homepage{
+		position: relative;
+		
+		.left{
+			@include abs(0, 0);
+			float: none;
+		}
+		
+		.right{
+			float: none;
+			margin-left: 334px;
+			width: auto;
+		}
+		
+		.carousel{
+			float: none;
+			margin-left: auto;
+			margin-right: auto;
+			width: 518px;
+			height: 383px;
+
+			.owl-controls{
+				width: 100%;
+				top: -25px;
+				left: 0;
+			}
+		}
+		
+		.buttons{
+			float: none;
+			margin-top: 30px;
+			margin-right: 0;
+			text-align: center;
+			
+			a{
+				display: inline-block;
+				margin-left: 5px;
+				margin-right: 5px;
+			}
+		}
+	}
+	
+	.pageFooter .menu{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	
+	.pageHeader{
+		height: 169px;
+	}
+	
+	.menuOpener{
+		display: block;
+	}
+	
+	.pageMenu{
+		display: none;
+		position: absolute;
+		top: 61px;
+		right: 10px;
+		z-index: 50;
+		width: 220px;
+		height: auto;
+		
+		ul{
+			float: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		li{
+			float: none;
+		}
+		
+		a{
+			padding: 9px 15px;
+			line-height: normal;
+			height: auto;
+		}
+	}
+	
+	.homepage{
+		
+		.left{
+			position: static;
+			width: 100%;
+		}
+		
+		.right{
+			margin-left: 0;
+			padding-top: 0;
+		}
+		
+		.carousel{
+			display: none !important;
+		}
+	}
+	
+	.pageContent:before{
+		display: none;
+	}
+	
+	.homepageWelcome{
+		padding-left: 25px;
+	}
+	
+	.body > .inner{
+		padding-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	.pageFooter{
+		position: static;
+	}
+	
+	.homepageWelcome{
+		padding-left: 10px;
+		padding-right: 10px;
+		
+		h2{
+			font-size: 3.4em;
+		}
+	}
+	
+	.homepage .left h3{
+		font-size: 3.4em;
+	}
 }

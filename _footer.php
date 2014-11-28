@@ -1,6 +1,6 @@
 				
 				<div class="pageContacts">
-					Mary Alexander, owner <span>•</span> Phone: 503-784-1801 <span>•</span> Email: <a href="mailto:WCFarabians@gmail.com">WCFarabians@gmail.com</a>
+					Mary Alexander, owner <span>•</span><br /> Phone: 503-784-1801 <span>•</span><br /> Email: <a href="mailto:WCFarabians@gmail.com">WCFarabians@gmail.com</a>
 				</div>
 			</div>
 
