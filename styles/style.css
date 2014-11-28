@@ -1468,11 +1468,18 @@ body {
     padding-left: 25px; }
 
   .body > .inner {
-    padding-bottom: 30px; } }
-@media only screen and (max-width: 880px) {
-  .pageFooter {
-    position: static; }
+    padding-bottom: 30px; }
 
+  .content {
+    padding-bottom: 40px;
+    background-image: none; }
+
+  .pageFooter {
+    position: static; } }
+@media only screen and (max-width: 640px) {
+  .list .listItem {
+    width: 44.72%; } }
+@media only screen and (max-width: 440px) {
   .homepageWelcome {
     padding-left: 10px;
     padding-right: 10px; }
@@ -1480,4 +1487,7 @@ body {
       font-size: 3.4em; }
 
   .homepage .left h3 {
-    font-size: 3.4em; } }
+    font-size: 3.4em; }
+
+  .list .listItem {
+    width: 94.72%; } }
