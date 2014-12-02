@@ -6,7 +6,7 @@
 			<div class="contentInner">
 				<h1 class="overline">Sale Horses</h1>
 				<div class="list">
-					<a href="#" class="listItem">
+					<a href="sarabella-wcf.php" class="listItem">
 						<img src="images/horse2.jpg" alt="" />
 						<h2>Sarabella WCF</h2>
 						<p>
@@ -14,7 +14,7 @@
 							2012 Chestnut Mare
 						</p>
 					</a>
-					<a href="#" class="listItem">
+					<a href="sarabella-wcf.php" class="listItem">
 						<img src="images/horse2.jpg" alt="" />
 						<h2>Sarabella WCF</h2>
 						<p>
@@ -22,7 +22,7 @@
 							2012 Chestnut Mare
 						</p>
 					</a>
-					<a href="#" class="listItem">
+					<a href="sarabella-wcf.php" class="listItem">
 						<img src="images/horse2.jpg" alt="" />
 						<h2>Sarabella WCF</h2>
 						<p>
@@ -30,7 +30,7 @@
 							2012 Chestnut Mare
 						</p>
 					</a>
-					<a href="#" class="listItem">
+					<a href="sarabella-wcf.php" class="listItem">
 						<img src="images/horse2.jpg" alt="" />
 						<h2>Sarabella WCF</h2>
 						<p>
@@ -38,7 +38,7 @@
 							2012 Chestnut Mare
 						</p>
 					</a>
-					<a href="#" class="listItem">
+					<a href="sarabella-wcf.php" class="listItem">
 						<img src="images/horse2.jpg" alt="" />
 						<h2>Sarabella WCF</h2>
 						<p>
@@ -46,7 +46,7 @@
 							2012 Chestnut Mare
 						</p>
 					</a>
-					<a href="#" class="listItem">
+					<a href="sarabella-wcf.php" class="listItem">
 						<img src="images/horse2.jpg" alt="" />
 						<h2>Sarabella WCF</h2>
 						<p>

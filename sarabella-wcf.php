@@ -5,7 +5,7 @@
 		<div class="content">
 			<div class="contentInner">
 				<div class="overline">
-					<a href="#" class="back">Back to sale horses</a>
+					<a href="sale-horses.php" class="back">Back to sale horses</a>
 				</div>
 				<div class="detailDescription">
 					<h1>Sarabella WCF</h1>

@@ -12,8 +12,8 @@
 						--><a href="#" class="vimeo"></a>
 					</div>
 					<ul class="menu">
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Sale horses</a></li>
+						<li><a href="about.php">About us</a></li>
+						<li><a href="sale-horses.php">Sale horses</a></li>
 						<li><a href="#">Broodmares</a></li>
 						<li><a href="#">New foals</a></li>
 						<li><a href="#">Services</a></li>
