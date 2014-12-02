@@ -6,7 +6,7 @@
 
 			<footer class="pageFooter">
 				<div class="inner">
-					<a href="#" class="logo"></a>
+					<a href="/" class="logo"></a>
 					<div class="social">
 						<a href="#" class="facebook"></a><!--
 						--><a href="#" class="vimeo"></a>
@@ -14,12 +14,12 @@
 					<ul class="menu">
 						<li><a href="about.php">About us</a></li>
 						<li><a href="sale-horses.php">Sale horses</a></li>
-						<li><a href="#">Broodmares</a></li>
-						<li><a href="#">New foals</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Decker rat terriers</a></li>
+						<li><a href="broodmares.php">Broodmares</a></li>
+						<li><a href="new-foals.php">New foals</a></li>
+						<li><a href="services.php">Services</a></li>
+						<li><a href="decker-rat-terriers.php">Decker rat terriers</a></li>
 						<li><a href="#">News</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</div>
 			</footer>

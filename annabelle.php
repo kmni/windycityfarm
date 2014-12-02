@@ -5,7 +5,7 @@
 		<div class="content">
 			<div class="contentInner">
 				<div class="overline">
-					<a href="#" class="back">Back to decker rat terriers</a>
+					<a href="decker-rat-terriers.php" class="back">Back to decker rat terriers</a>
 				</div>
 				<div class="detailDescription">
 					<h1>Annabelle</h1>
