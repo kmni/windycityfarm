@@ -33,9 +33,9 @@
 					</div>
 				</div>
 				<div class="buttons">
-					<a href="#" class="facebook"></a>
-					<a href="#" class="vimeo"></a>
-					<a href="#" class="qnine"></a>
+					<a href="https://www.facebook.com/pages/Windy-City-Farm/207059542811838" class="facebook" target="_blank"></a>
+					<a href="https://vimeo.com/windycityfarm/" class="vimeo" target="_blank"></a>
+					<a href="http://www.qninedesigns.com/" class="qnine" target="_blank"></a>
 				</div>
 			</div>
 		</div>

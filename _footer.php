@@ -8,8 +8,8 @@
 				<div class="inner">
 					<a href="/" class="logo"></a>
 					<div class="social">
-						<a href="#" class="facebook"></a><!--
-						--><a href="#" class="vimeo"></a>
+						<a href="https://www.facebook.com/pages/Windy-City-Farm/207059542811838" class="facebook" target="_blank"></a>
+						<a href="https://vimeo.com/windycityfarm/" class="vimeo" target="_blank"></a>
 					</div>
 					<ul class="menu">
 						<li><a href="about.php">About us</a></li>
